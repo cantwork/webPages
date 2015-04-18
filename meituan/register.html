@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="Stylesheet" href="styles/register/register.css"/>
+    <script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts/register/register.js"></script>
+</head>
+<body onload="document.forms[0].reset()">
+    <form id="form1" runat="server">
+    <div class="main">
+        <div class="top">
+            <div class="topInner">
+                <div class="topInnerL">
+                    <a class="logo"></a>
+                    <span class="logo-name">注册账号</span>
+                </div>
+                <div class="topInnerR">
+                    <a class="login">登录</a>
+                    <span class="login-name">已有账号？</span>
+                </div>
+            </div>
+        </div>
+        <ul class="content">
+            <li>
+                <span class="contentTilte">手机号</span>
+                <input class="contentInput" id="mobileInput"/>
+                <div class="contentCheck">
+                    <i></i>
+                    请输入您的手机号码
+                </div>
+            </li>
+            <input class="smsCode" type="submit" value="免费获取短信动态码"/>
+            <li>
+                <span class="contentTilte">短信动态码</span>
+                <input class="contentInput" id="smsCodeInput" />
+                <div class="contentCheck">
+                    <i></i>
+                    <span>请输入短信动态码</span>
+                </div>
+            </li>
+            <li>
+                <span class="contentTilte">创建密码</span>
+                <input class="contentInput" id="createPwd" type="password"/>
+                <div class="contentCheck">
+                    <i></i>
+                    <span>请填写密码</span>
+                </div>
+            </li>
+            <li style="position:relative;height:20px;">
+                <div class="pwdBarArea">
+                    <div class="pwdBar"></div>
+                    <div class="pwdBarInner">
+                        <span class="pwdBar-label">弱</span>
+                        <span class="pwdBar-label">中</span>
+                        <span class="pwdBar-label pwdBar-label-noborder">强</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="contentTilte">确认密码</span>
+                <input class="contentInput" id="confirmPwd"/>
+                <div class="contentCheck">
+                    <i></i>
+                    <span>请再次输入密码</span>
+                </div>
+            </li>
+            <li>
+                <input class="submitBtn" type="submit" value="同意以下协议并注册"/>
+            </li>
+        </ul>
+    </div>
+    </form>
+</body>
+</html>

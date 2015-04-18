@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="Stylesheet" href="styles/common.css"/>
+    <link rel="Stylesheet" href="styles/restaurant/restaurant.css"/>
+    <script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts/home/home.js"></script>
+    <script type="text/javascript" src="scripts/restaurant/restaurant.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="main">
+        <div class="search">
+            <div class="searchInner">
+                <div class="searchLogo"></div>
+                <div class="searchBar">
+                    <a class="address">
+                        南京
+                        <i class="icon i-arrow"></i>
+                    </a>
+                    <input class="searchInput" type="text" placeholder="请输入送餐地址" />
+                </div>
+                <div class="searchL">
+                    <a class="homePage">
+                        <span>主页</span>
+                    </a>
+                    <a class="myOrder">
+                        <span>我的外卖</span>
+                    </a>
+                    <a class="contactUs">
+                        <span>联系我们</span>
+                    </a>
+                </div>
+                <div class="dis-login">
+                    <a class="login">登录</a>
+                    <a class="register">注册</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="rest-info">
+            <div class="rest-infoL">
+                <div class="rest-pic">
+                    <img width="90" height="90" src="image/restaurant/rest-2.jpg"/>
+                </div>
+                <div class="rest-content">
+                    <div class="name">
+                        茶来茶往
+                        <i class="icon i-dn"></i>
+                    </div>
+                    <div class="starLevel">
+                        <span class="star-grey">
+                            <span class="star-gold"></span>
+                        </span>
+                        <span class="starPoint">4.5</span>
+                    </div>
+                    <div class="detail">30元起送 免费配送 由餐厅配送</div>
+                </div>
+            </div>
+            <div class="rest-infoR">
+                <div class="rest-like">
+                    <a class="rest-heart">
+                        <i class="icon i-heart"></i>
+                        <span>收藏</span> 
+                    </a>
+                    <span class="likeCount">（222）</span>
+                    
+                </div>
+                <div class="rest-intime judge">
+                    <div class="judgeTop">
+                        <strong>88</strong>
+                        %
+                        <i class="icon i-dn"></i>
+                    </div>
+                    <div class="judgeBottom">及时送餐率</div>
+                </div>
+                <div class="rest-intime judge">
+                    <div class="judgeTop">
+                        <strong>38</strong>
+                        分钟
+                        <i class="icon i-dn"></i>
+                    </div>
+                    <div class="judgeBottom">平均送餐时间</div>
+                </div>
+                <div class="rest-intime judge">
+                    <div class="judgeTop">
+                        <strong>4.4</strong>
+                        分
+                        <i class="icon i-dn"></i>
+                    </div>
+                    <div class="judgeBottom">餐厅评分</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rest-food">
+            <div class="rest-foodL">
+                <div class="food-tab">
+                    <div class="food-tabTitle">
+                        <a class="tab-title food-tabTitle1">菜单</a>
+                        <a class="tab-title food-tabTitle2">评价</a>
+                    </div>
+                    <ul class="food-tabContent">
+                        <li>超值配餐</li>
+                        <li>超值配餐</li>
+                        <li>超值配餐</li>
+                        <li>超值配餐</li>
+                        <li>超值配餐</li>
+                        <li>超值配餐</li>
+                        <li>超值配餐</li>
+                        <li>超值配餐</li>
+                        <li>超值配餐</li>
+                    </ul>
+                </div>
+                <div class="food-list">
+                    <div class="list-title">
+                        <span>超值配餐</span>
+                        <div class="list-titleR">
+                            <a class="price">
+                                价格
+                                <i class="icon i-orderup"></i>
+                            </a>
+                            <a class="sale">
+                                销量
+                                <i class="icon i-orderdown"></i>
+                            </a>
+                            <a class="default active">默认排序</a>
+                        </div>
+                    </div>
+                    <div class="list-content">
+                        <div class="food-card">
+                            <div class="food-pic">
+                                <img class="food-picControl" src="image/restaurant/food-1.jpg" />
+                            </div>
+                            <div class="food-name"> 秘制鸡锁骨 </div>
+                            <div class="sale-info">
+                                <span class="sale-count">月售169份</span>
+                                <div class="food-like">
+                                    <i class="icon i-zan"></i>
+                                    <span>(108)</span>
+                                </div>
+                            </div>
+                            <div class="food-order">
+                                <span value="8">¥8/份</span>
+                                <i class="icon-bd i-addBtn" id="food-1" value="0"></i>
+                            </div>
+                        </div>
+                        <div class="food-card">
+                            <div class="food-pic">
+                                <img class="food-picControl" src="image/restaurant/food-1.jpg" />
+                            </div>
+                            <div class="food-name"> 奥尔良腿排 </div>
+                            <div class="sale-info">
+                                <span class="sale-count">月售169份</span>
+                                <div class="food-like">
+                                    <i class="icon i-zan"></i>
+                                    <span>(108)</span>
+                                </div>
+                            </div>
+                            <div class="food-order">
+                                <span value="18">¥18/份</span>
+                                <i class="icon-bd i-addBtn" id="food-2" value="0"></i>
+                            </div>
+                        </div>
+                        <div class="food-card food-card2">
+                            <div class="food-pic">
+                                <img class="food-picControl" src="image/restaurant/food-1.jpg" />
+                            </div>
+                            <div class="food-name">麦辣鸡</div>
+                            <div class="sale-info">
+                                <span class="sale-count">月售169份</span>
+                                <div class="food-like">
+                                    <i class="icon i-zan"></i>
+                                    <span>(108)</span>
+                                </div>
+                            </div>
+                            <div class="food-order">
+                                <span value="12">¥12/份</span>
+                                <i class="icon-bd i-addBtn" id="food-3" value="0"></i>
+                            </div>
+                        </div>
+                        <div class="food-card food-card-last">
+                            <div class="food-pic">
+                                <img class="food-picControl" src="image/restaurant/food-1.jpg" />
+                            </div>
+                            <div class="food-name">无骨鸡块</div>
+                            <div class="sale-info">
+                                <span class="sale-count">月售169份</span>
+                                <div class="food-like">
+                                    <i class="icon i-zan"></i>
+                                    <span>(108)</span>
+                                </div>
+                            </div>
+                            <div class="food-order">
+                                <span value="5">¥5/份</span>
+                                <i class="icon-bd i-addBtn" id="food-4" value="0"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="rest-foodR">
+                <div class="broadcast">
+                    <div class="broadcast-title">
+                        订餐必读&商家公告
+                    </div>
+                    <div class="broadcast-content">
+                        送餐范围超过4公里，点餐要满50元起送，6——7公里点餐要满70元起送！ 
+                    </div>
+                </div>
+                <div class="discount">
+                    <a class="delivery-min-fee" value="30">起送价：30 元 </a>
+                    <a class="delivery-fee">
+                        <i class="icon i-free"></i>
+                        <span>配送费</span> 
+                    </a>
+                    <a>
+                        <i class="icon i-pay"></i>
+                        <span>该餐厅支持在线支付</span> 
+                    </a>
+                    <a>
+                        <i class="icon i-first"></i>
+                        <span>(手机客户端专享)新用户首次下单,立减15元</span> 
+                    </a>
+                    <a>
+                        <i class="icon i-minus"></i>
+                        <span>满20元减8元;满30元减12元(在线支付专享)</span> 
+                    </a>
+                </div>
+                <div class="shoppingCar">
+                    <div class="carMain hide">
+                        <div class="carTop">
+                            <span class="car-name">购物车</span>
+                            <span class="clear-car">清空</span>
+                        </div>
+                        <table class="carBody">
+                            <thead class="car-head">
+                                <tr class="item">
+                                    <td class="item-name">菜品</td>
+                                    <td class="item-count">份数</td>
+                                    <td class="item-price">价格</td>
+                                </tr>
+                            </thead>
+                            <tbody class="car-list">
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="carBar">
+                        <span class="icon-bd i-shoppingCar"></span>
+                        <span class="carEmpty"> 购物车是空的</span>
+                        <span class="carAmount hide" ></span>
+                        <span class="carNeedmore hide"></span>
+                        <span class="carSubmit hide" >去下单</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="footInner">
+                <div class="footBlock">
+                    <div class="blockTitle">用户帮助</div>
+                    <ul>
+                        <li>常见问题</li>
+                        <li>用户反馈</li>
+                        <li>诚信举报</li>
+                        <li>线上体验店</li>
+                    </ul>
+                </div>
+                <div class="footBlock">
+                    <div class="blockTitle">获取更新</div>
+                    <ul>
+                        <li>iPhone/Android</li>
+                        <li>新浪微博</li>
+                        <li>公众微信号</li>
+                    </ul>
+                </div>
+                <div class="footBlock">
+                    <div class="blockTitle">商务合作</div>
+                    <ul>
+                        <li>商家合作申请入口</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

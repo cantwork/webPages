@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul,li{list-style: none;list-style-position: outside;}
+
+
+.right{z-index: 1000px; position: fixed;overflow: hidden; right: -327px; width: 332px;height: 100%;background-color: #1F0068;transition: all 0.3s ease 0s;}
+.main{position: relative;overflow: hidden; width: 100%;height: 100%;background-color: #3A9CFF;}
+.innerMain{width: 1170px;height: auto;margin: auto;}
+.head{height: 90px;padding-top: 60px;}
+.hd_left{float: left; width: 753px;padding: 20px 13px 0 13px;color: #fff; font-size: 42px;font-style: normal;font-weight: 300;font-family: "Open Sans","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;}
+.hd_left a{cursor: pointer;}
+.hd_right{float: right; width: 360px;height: 34px; margin-top: 30px;}
+.hd_right1{float: right; width: 30px;height: 30px; border:2px solid #fff;border-radius:50%;  cursor: pointer;}
+.hd_right1:hover{box-shadow: 3px 3px 10px #fff;}
+.hd_right1 img{margin: 5px 0 0 5px;}
+.hd_right2{float: right;margin-right: 5px;width: 30px;height: 30px; border:2px solid #fff;border-radius:50%;  cursor: pointer;}
+.hd_right2:hover{box-shadow: 3px 3px 10px #fff;}
+.hd_right2 img{margin: 5px 0 0 5px;}
+.mid{width: 1170px;height: 510px;margin: auto;}
+.midA{float: left; width: 364px;height: 510px;padding: 0 13px;}
+.space{cursor: pointer;}
+.space:hover{box-shadow: 0 0 1px #fff;}
+.small-6{width:160px;height: 150px;margin: 10px;float: left;}
+.color-1{background-color: #00bf03;}
+.color-2{background-color: #8224e3;}
+.blockA{width: 150px;height: 140px;margin: ;}
+.blockA a{margin: 30px 0 0 15px; width: auto;height: 21px; display: block;color: #fff; font-size: 22px;font-style: normal;font-weight: 300;font-family: "Open Sans","Helvetica Neue","Helvetica",Arial,Verdana,sans-serif;}
+.block-1 img{margin: 30px 0 0 40px;}
+.block-2 img{margin: 20px 0 0 40px;}
+
+.big-12{position: relative; width: 340px;height: 150px;margin: 10px; float: left;overflow: hidden;}
+.color-3{background-color: #008cbf;}
+.space:hover .box-title.anim{bottom: 0px;}
+.box-title{position: absolute;}
+.anim{position: absolute; width: 340px;height: 30px; bottom: -30px; display: block;font-size: 18px;font-family: 微软雅黑; color: #fff;background: rgba(0, 0, 0, 0.4);z-index: 5;transition: all 0.2s cubic-bezier(1.000, -0.410, 0.840, 1.015) 0s;}
+.midA1-li{}
+.fade{z-index: 2;opacity: 1;}
+blockquote{ font-family: 'Droid Serif', Georgia, 'Times New Roman', Times, serif;font-style: italic;}
+blockquote p{color: #fff;font-size: 18px;margin: 10px 0 0 10px;}
+blockquote cite{color: #ddd;font-size: 12px;float: right;margin:0 5px 0 0;}

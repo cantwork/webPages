@@ -1,0 +1,7 @@
+*{margin: 0px; padding: 0px;}
+body{font-size: 12px; font-family: 宋体,Arial;}
+ul, li{
+list-style: none;
+list-style-position: outside;
+}
+a{text-decoration: none;}

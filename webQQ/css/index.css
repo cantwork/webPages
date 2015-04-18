@@ -1,0 +1,61 @@
+*{margin: 0 auto;padding: 0 auto;font-family: 微软雅黑;}
+a{text-decoration: none;}
+ul,li{list-style: none;list-style-position: outside;}
+
+.black{width: 100%;height: 100%; background-image: url("../image/bg.jpg");position: fixed;}
+.webqq{width: 1000px;height: 100%;}
+.qqLeft{width: 280px;height: 100%;float: left;}
+.qqMain{width: 280px; height: 80%; margin-top: 12%;display: block!important;} 	
+.list{ width: 100%;display: none;}
+.chose{display: block;background-color: #333;border-left-color: #222;}
+.listHead{width: 280px;height: 45px;background:linear-gradient(#555,#222);border-top-right-radius: 7px;border-top-left-radius: 7px;box-shadow:1px 1px 3px #666;}
+.listTitle{text-align: center;color: #fff;font-style: 18px;padding-top: 10px;}
+.listBody{overflow: scroll; width: 100%;height: 450px;background-color: #fff;}
+.listBody ul{ width: 270px;padding: 0;}
+.list-item{ width: 270px;height: 56px; background:linear-gradient(#fff,#f1f1f1);cursor: pointer;}
+.member-pic{display: block;float: left;width: 40px;height: 40px;margin: 8px;}
+.member-nick{display: inline-block;float: left;width: 200px; height: 22px;padding: 8px 0 0 3px;}
+.member-state{overflow: hidden; width: 40px;height: 18px;float: left; font-size: 12px;color: #aaa;}
+.recent-msg{overflow: hidden;width: 100px;height: 18px;float: left; font-size: 12px;color: #aaa;line-height: 18px;}
+.recent-shuoshuo{overflow: hidden;width: 160px;height: 18px;float: left; font-size: 12px;color: #aaa;}
+.member-tab{display:block; width:270px;height: 39px;border:0;}
+.memberTab{display: block;float: left;text-align: center;line-height: 35px; width:87px;height: 39px;border-bottom: 2px solid #ccc;border-right: 1px solid #d8d8d8; cursor: pointer; }
+.member-tab-body{width:270px;}
+.memberTabBody{display: none;}
+.selected{display: block;background-color: #fff;}
+.member-scroll-area{width: 270px;position: absolute;overflow: hidden;}
+.list-group-title{width: 220px;height: 24px;padding: 8px 28px;border-bottom: 1px solid #ccc; background: url("../image/open_arrow.png") no-repeat 12px; background-size: 14px 14px; cursor: pointer;}
+.list-group-title-click{background: url("../image/open_arrow_fire.png") no-repeat 12px; background-size: 14px 14px;}
+.list-group-body{display: none;width: 260px;}
+.current{display: block;}
+
+.qqBar{ width: 280px;height: 50px;}
+.qqBar ul{width: 280px;height: 50px;padding: 0;}
+.qqBar ul li{display: block;float: left;width: 69px;height: 50px;border-right: 1px solid #222;cursor: pointer;}
+.qqBar ul li a{display: block; width: 69px;height: 55px;font-size: 12px; text-align: center;color: #fff;background: linear-gradient(#555,#222);}
+.qqBar ul li a .icon{display: block; width: 34px;height: 34px;}
+.qqBar ul li a span{width: 34px;height: 12px;}
+.chat .icon{ background-image: url("../image/chat.png");}
+.contact .icon{ background-image: url("../image/contact.png");}
+.faxian .icon{background-image: url("../image/faxian.png");}
+.set .icon{background-image: url("../image/set.png");}
+ 
+
+a .icon{width: 34px;height: 34px;background-size: 100% 100%; }
+
+
+.chatBox{width: 700px;height: 80%;margin-left: 500px;  display: block;margin-top: 3%; position: absolute;}
+.boxhead{width: 700px;height: 45px;background: linear-gradient(#555,#222);border-radius: 6px;}
+.btnMore{float: left;margin: 4px 0 0 4px; width: 70px;height: 33px;border: 1px solid #000;border-radius: 7px; cursor: pointer;}
+.btnMore span{display: block; width: 14px;height: 14px;margin: 10px 0 0 27px; background-size: 100% 100%; background-image: url("../image/btnMore.png");background-repeat: no-repeat;}
+.memberName{float: left; width: 450px;height: 45px; text-align: center;color: #fff;line-height: 40px;}
+.btnClose{float: right;margin: 4px 4px 0 0 ;color: #fff;text-align: center;line-height: 30px; width: 70px;height: 33px;border: 1px solid #000;border-radius: 7px; cursor: pointer;}
+.boxMain{width: 700px;min-height: 84%; background: rgba(0,0,0,.5)!important;}
+.chat-content-list{width: 700px;height: 86px;text-align: right;}
+.chat-content-list img{width: 40px;height: 40px; float: right;padding: 10px;}
+.chat-nick{height: 14px;color: #fff; display:block; float: right;}
+.chat-content{display: inline-block; background-color: #f1f1f1;padding: 5px 10px; margin-top: 30px;border-radius: 8px;}
+.boxBar{width: 700px;height: 50px;background: linear-gradient(#555,#222);border-bottom-left-radius: 6px;border-bottom-right-radius: 6px;}
+.btnFace{float: left; width: 30px;height: 30px;margin: 6px 8px 0 8px; background-image: url("../image/btnFace.png");background-repeat: no-repeat;background-size: 100% 100%; cursor: pointer;}
+.boxBar textarea{width: 570px;height: 32px;border-radius: 5px;margin-top: 7px;}
+.btnSend{float: right;margin: 3px 7px 0 0; width: 50px;height: 38px;border-radius: 7px;font-size: 14px;line-height: 35px;	text-align: center;color: #fff;text-shadow: 0 1px 1px #194b7e; background: -webkit-linear-gradient(top,#5f9cc5,#396b9e);border-color: #044062;cursor: pointer;}

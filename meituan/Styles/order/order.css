@@ -1,0 +1,21 @@
+﻿.orderArea{width:980px;margin:0 auto;overflow:hidden;}
+.orderL{width:370px;float:left;}
+.orderBody{width:370px;border: 1px solid #EBEBEB;border-collapse: collapse;}
+.item{height:50px; line-height:50px;background:#fff;border-bottom:1px dashed  #d4d4d4;font-size:14px;}
+.item-name{float:left;padding-left:15px;}
+.item-priceCount{float:right;padding-right:15px;}
+.title{font-size: 14px;font-weight: bold;}
+.total{font-size: 16px;font-weight: bold;}
+.privilege{width:370px;height:50px;background:#fff; }
+.privilege-bot{width: 370px;height: 32px;background:url(../../image/order/order-bot.png) no-repeat;}
+
+.orderR{float:right; background:#fff;width:590px;border: 1px solid #EBEBEB;}
+.orderR span{display:block;}
+.orderRtilte{padding:15px 0 15px 15px; font-size:14px;font-weight: bold;}
+.orderRcontent li{width:560px; padding:0 15px;margin:5px 0; float:left;}
+.orderRcontent li span{float:left;width:80px;line-height:30px;}
+.orderRcontent li input{float:left;width:355px;height:18px;padding-left: 6px;padding-bottom: 8px;padding-top: 8px;border:0; background-position: -579px 0px;}
+.payType{display:block;float:left;width:75px;height:20px;margin:3px 5px; border:1px solid #DCDCDC;text-align:center;cursor:pointer;}
+.payBtn{display:block;float:left;width:100px;height:30px;border-radius:3px; background:#E4393C;color:#fff;font-size:16px;font-weight:bold; text-align:center;line-height:30px;transition: all 0.2s ease-in-out 0s; cursor:pointer;}
+.payBtn:hover{background:#A40000;}
+.selected{border:1px solid #E4393C;color:#E4393C;}

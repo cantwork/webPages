@@ -1,0 +1,62 @@
+﻿body,ul,li {margin:0;padding:0;
+}
+ul,li{list-style:none;}
+
+body{background:#F5F5F5;font: 12px/1.4 Arial,Helvetica,sans-serif;}
+.main{min-width:980px;position:relative;}
+/*页面顶部公用*/
+/*
+.top{width:100%;height:30px;background:#E4393C;}
+.topInner{width:980px;height:30px; margin:0 auto;line-height:30px;color:#fff;font-size:12px; }
+.innerL{width:490px;float:left;}
+.innerR{width:490px;float:right;}
+.innerL a{padding:8px 12px 8px; height:30px;color:#FFF100;cursor:pointer;}
+.innerL span{padding:0 12px; height:30px;}
+.innerR span{padding:0 12px; height:30px;cursor:pointer;}
+.innerL a:hover{background:#E15F00;}
+.innerR span:hover{background:#E15F00;}
+#question,#customService,#login,#register{float:right;}
+*/
+.search{width:100%;height:80px;background:#E4393C;margin-bottom:10px;}
+.searchInner{width:980px;height:80px; margin:0 auto;line-height:30px;font-size:14px; }
+.searchLogo{float:left; width:150px;height:70px;}
+.searchBar{float:left;width:320px;min-width:340px;height:35px;margin-top:20px;padding:0 10px;}
+.address{display:block;float:left; width:65px;height:39px;text-align:center;line-height:39px; background:#fff;border-right: 1px solid #DDD;border-top-left-radius: 2px;border-bottom-left-radius: 2px;cursor:pointer;}
+.searchInput{display:block;float:left; width:250px;height:37px;border:0; border-top-right-radius: 2px;border-bottom-right-radius: 2px;color: #A9A9A9;font-size:12px;}
+.searchBtn{display:block;float:left; width:70px;height:35px;color:#fff;background:#A40000;text-align:center;line-height:35px;font-weight:bold; cursor:pointer;}
+.searchL{float:left;height:80px;line-height:80px;padding-right:12px; font-size:16px;}
+.icon{background-image:url(../image/icons.png);background-repeat: no-repeat;display: inline-block;vertical-align: -2px;}
+.myOrder,.homePage,.contactUs{float:left;}
+.line{color: #D2D2D2;margin: 0px 20px;}
+.searchL a{display:block;width:110px;height:80px; color:#fff;text-align:center; font-size: 18px;transition: all 0.2s ease-in-out 0s;font-family: "Microsoft Yahei UI","Microsoft YaHei",Helvetica,Arial,sans-serif; cursor:pointer;}
+.searchL a:hover{background:#A40000;}
+.dis-login{float:right;line-height:30px;padding:25px 0;font-size: 12px;}
+.dis-login a{display:block;float:left;width:50px;height: 30px;line-height: 28px; text-align:center;color:#fff; background:#C5364C;transition: background-color 0.2s ease-in 0s; cursor:pointer;}
+.dis-login a:hover{background:#A82B3E;}
+.login{margin-right:5px;border-top-left-radius: 17px;border-bottom-left-radius: 17px;}
+.register{ border-top-right-radius: 17px;border-bottom-right-radius: 17px;}
+
+/*页面底部公用*/
+.foot{ margin:20px 0 50px 0;height:300px; border-top:2px solid #E4393C;}
+.footInner{width:980px;margin:0 auto;padding-top:30px;}
+.footBlock{float:left;width:160px; border-left:1px dotted #A5A5A5; padding-left:20px;}
+.footBlock ul{padding:10px 0 0 15px;}
+.footBlock ul li{line-height:24px; list-style: outside none square;cursor:pointer;}
+.blockTitle{font-size: 14px;font-weight: bold;margin-top: 18px;}
+
+/*图标公用*/
+
+.icon-bd{background:url(../image/icon-bd.png);background-repeat: no-repeat;}
+.sprite{background:url(../image/sprite.png);background-repeat: no-repeat;}
+.i-orderdown{width: 9px;height: 10px;background-position: -371px -47px;}
+.i-orderup {width: 9px;height: 10px;background-position: -397px -47px;}
+.i-pay {width: 17px; height: 17px;background-position: -258px -286px;}
+.i-fapiao {height: 17px;width: 17px;background-position: -386px -90px;}
+.i-first { height: 17px;width: 17px;background-position: -297px -21px;}
+.i-minus {width: 17px; height: 17px; background-position: -297px -44px;}
+.i-heart {width: 16px;height: 16px;background-position: -547px -89px;}
+.i-free {width: 17px;height: 17px;background-position: -323px -67px;}
+.i-arrow{width: 10px;height: 8px;background-position: -550px -22px;vertical-align: 1px;}
+.i-zan{width:15px;height: 15px;background-position: -416px -63px;}
+.i-addBtn {float:right; width: 26px; height: 26px;background-position: -4px -158px;cursor:pointer;}
+.i-shoppingCar{height: 38px;width: 35px;margin: 2px 0px 0px 15px;background-position: -5px -120px;}

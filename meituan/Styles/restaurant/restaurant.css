@@ -1,0 +1,88 @@
+﻿.rest-info{width:980px;height:121px;margin:0 auto; background:#fff;overflow:hidden;}
+.rest-infoL{float:left;}
+.rest-pic{float:left;margin: 15px 0px 0px 15px;height: 90px;width: 90px;}
+.rest-content{float:left;padding:15px 0 0 10px;}
+.name{font-size: 18px;color: #444;font-family: 微软雅黑;cursor:pointer;}
+.i-dn{width: 10px;height: 6px;background-position: -514px -5px;vertical-align: 2px;}
+.detail{ color: #898989;margin-top:15px;}
+
+.starLevel{margin-top:10px; overflow:hidden;}
+.starLevel span{display:block;}
+.star-grey{float:left; width:72px;height:12px;background-image:url(../../image/star-grey.png);}
+.star-gold{width:66px;height:12px;background-image:url(../../image/star-gold.png);}
+.starPoint{float:left;}
+
+.rest-infoR{float:right;}
+.rest-like{overflow:hidden;float:right;width:80px;height:65px;margin:20px 0;border-left:2px solid #eee}
+.rest-heart{display:block;cursor:pointer;}
+.i-heart {margin:10px 30px 0 30px; width: 22px;height: 20px;background-position: -493px -87px;}
+.rest-heart span{margin-top:5px;display:block; text-align:center;}
+.likeCount{color: #E4393C;display:block; text-align:center;}
+.judge{float:right; width:100px;height:65px;padding:0 10px; margin:20px 0;color: #898989;font-size: 12px;border-left:2px solid #eee}
+.judge strong {font-family: 微软雅黑;font-size: 34px;font-weight: 900;}
+.judgeTop{text-align:center;}
+.judgeBottom{text-align:center;}
+
+.rest-food{width:980px;overflow: auto;margin:10px auto; }
+.rest-foodL{float:left;width:720px;}
+.food-tab {background-color: #FFF;border: 1px solid #EBEBEB;}
+.food-tabTitle{height:40px;margin:0 10px;border-bottom: 3px solid #EBEBEB;}
+.food-tabTitle a{display:block;float:left;width:110px;height:40px;text-align:center;line-height:40px;font-size: 16px;cursor:pointer;}
+.food-tabTitle1{color:#E4393C; border-bottom: 3px solid #E4393C;}
+.food-tabContent{padding:20px 30px;overflow:auto;}
+.food-tabContent li{float:left;width:60px;height:25px; margin-right:60px;text-align:center;line-height:25px;border-radius: 3px; cursor:pointer;}
+.food-tabContent li:hover{color: #FFF;background:#E4393C;}
+
+.food-list{border: 1px solid #EBEBEB;margin:10px auto;}
+.list-title{height:35px;padding:10px 20px;line-height:35px; background-color: #FAFAFA;border-bottom: 1px solid #EBEBEB;}
+.list-title span{float:left;display:block;font-size:14px;font-weight:bold;}
+.list-titleR{float:right;}
+.list-titleR a{display:block;float:right;height:20px; line-height:20px;margin-top:6px; padding:2px 10px;cursor:pointer;}
+.price,.sale{border-left: 1px solid #E1E1E1;}
+.active{border: 1px solid #DDD;background-color: #EEE;}
+
+.list-content{overflow:auto;background:#fff;}
+.food-card{float:left;width:198px;height:270px;padding:0 20px;overflow: hidden;border-right: 1px dashed #DDD;border-bottom: 1px dashed #DDD;}
+.food-card:hover{background:#FFEDEE;}
+.food-card2{border-right:0;width:199px;}
+.food-card-last{border-bottom:0;}
+.food-pic{margin:20px 0;width:195px;height:146px;}
+.food-picControl{width:100%;height:100%;}
+.food-name{font-size:14px;}
+.sale-info{width:198px;height:17px; margin-top:5px;}
+.sale-count{float:left;color: #686868;}
+.food-like{float:right;}
+.food-like span{color: #E4393C;}
+.food-order{margin-top:5px;height:30px;width:198px;line-height:30px;}
+
+.rest-foodR{float:right;}
+.broadcast{width:250px;}
+.broadcast-title{border: 1px solid #ED9400;height: 40px;background-color: #E4393C;color: #FFF;line-height: 40px;font-size:16px;font-weight:bold; padding-left: 12px;}
+.broadcast-content{padding:12px;font-size:14px;background-color: #fff;color: #E4393C;}
+.discount{width:226px;padding:12px;margin-top:10px;border:1px solid #EBEBEB; background-color: #fff;overflow:auto;font-size:14px;}
+.discount span,.discount a{display:block;float:left;}
+.discount a{width:226px;margin:5px 0;}
+.discount span{width:180px;margin-left:10px;}
+.discount i{float:left;}
+
+.shoppingCar{position:fixed;bottom:0;width:250px;z-index:4;box-shadow: 0px -1px 10px 2px #BCBCBC;}
+.hide{display:none!important;}
+.carTop{height:40px;padding:0 10px; color:#777; background:#E4E4E4;}
+.carTop span{display:block;line-height:40px;font-size: 14px;}
+.car-name{float:left;}
+.clear-car{float:right;cursor:pointer;}
+table {width:250px;border-collapse: collapse;border-spacing: 0px;background:#fff;}
+.car-head{color: #AAA;}
+.item{border-bottom: 1px solid #DDD;}
+.item-name{width:150px;padding:8px 0 8px 10px;}
+.item-count{width:60px;padding:8px 0;text-align:center;}
+.item-count a{display:block;width:16px;height:16px;float:left; color: #BFBFBF;font-weight: bold;text-align: center;border: 1px solid #E5E5E5;cursor:pointer;}
+.item-count input{width:14px;height:14px;float:left;border: 1px solid #E5E5E5;}
+.item-price{width:40px;padding:8px 0;text-align:center;}
+
+.carBar{height:40px; color:#fff;background:#E4393C;}
+.carBar span{display:block;float:left;line-height:40px;}
+.carEmpty{ font-size:15px;}
+.carAmount{width:100px; font-size:16px;cursor:pointer;}
+.carNeedmore{width:100px; font-size:15px;text-align:center;background:#787878;}
+.carSubmit{width:99px;font-size:15px;font-weight:bold; text-align:center;border-left:1px solid #A40000;cursor:pointer;}

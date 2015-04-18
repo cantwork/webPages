@@ -1,0 +1,41 @@
+﻿body,ul,li {margin:0;padding:0;
+}
+ul,li{list-style:none;}
+
+body{font: 12px/1.4 Arial,Helvetica,sans-serif;}
+.main{min-width:980px;position:relative;}
+
+.top{width:100%;height:40px;border-bottom:2px solid #E4393C;}
+.topInner{width:980px;margin:0 auto;}
+.topInner a,.topInner span{display:block;}
+.topInnerL{float:left;}
+.logo{float:left;width:100px;height:40px;}
+.logo-name{float:left;padding:10px 0;font-size:16px;color: #666;}
+.topInnerR{float:right;padding:10px 0;}
+.login{float:right;background:#E4393C;color:#fff; width:40px; height:20px;border-radius:2px; transition: all 0.2s ease-in-out 0s;text-align:center;cursor:pointer;}
+.login:hover{background:#A40000;}
+.login-name{float:right;font-size:14px;color: #666;}
+
+.content{width:980px;margin:20px auto;}
+.content li{float:left; width:980px;height:40px;padding:8px 0;}
+.content span,.content input{float:left;}
+.contentTilte{width:100px;height:40px;line-height:40px; font-size:14px;text-align: right;color: #333;}
+.contentInput{margin:0 10px;width:250px;height:25px;padding:5px; border:1px solid #aaa;}
+.submitBtn{margin-left:110px; width: 200px;height: 30px;background: #E4393C;border: 0;cursor: pointer;border-radius: 2px;color: #fff;font-size: 14px;font-weight: bold;}
+.submitBtn:hover{background:#A40000;}
+.smsCodeArea{float:left;width:980px;}
+.smsCode{margin-left:110px; width: 150px;height: 20px;color: #333;border-width: 1px;border-style: solid;border-color: #E3E3E3 #E3E3E3 #AAA;background-image: linear-gradient(to bottom, #F7F7F7, #DEDEDE);background-color: #DEDEDE;cursor: pointer;border-radius: 2px;}
+.smsCode:hover{background-color: #E9E9E9;background-image: linear-gradient(to bottom, #FFF, #E9E9E9);}
+.contentCheck{display:none; width:300px;height:40px;line-height:40px; float:left;}
+.pwdBarArea{margin-left:110px;position:absolute;height:20px;width:260px;background:#eee;}
+.pwdBar{width:0;height:20px;transition: all 0.4s linear 0s;}
+.pwdBarInner{position:absolute;top:0;}
+.pwdBar-label{display: block;float:left; text-align: center;font-size: 12px;height: 20px;line-height: 20px;width: 85px;border-right: 2px solid #FFF;color: #FFF;}
+.pwdBar-label-noborder{border-right:0;}
+.pwdBar-label-weak{background:#E4393C;width: 85px;}
+.pwdBar-label-normal{background:#FF8900;width: 172px;}
+.pwdBar-label-strong{background:#5BAB3C;width: 260px;}
+
+.focus{border-color: #2BB8AA;}
+.blur{border-color: #E4393C;}
+.right{border-color: #999;}
